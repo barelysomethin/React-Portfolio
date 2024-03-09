@@ -1,0 +1,54 @@
+.brand{
+    grid-column: 1/2;
+    color: rgb(255, 0, 0);
+}
+.togglemenu{
+
+    grid-column: 4/5;
+    display: none;
+}
+.togglemenu:hover{
+
+    text-decoration: brown;
+}
+.menu{
+
+    grid-column: 4/5;
+
+}
+.menu ul{
+    list-style-type:none;
+padding: 0;
+}
+.menu li{
+    padding: 10px;
+}
+.breadcrumbs{
+
+    display: none;
+}
+ 
+@media(max-width : 768px){
+
+    .navbar{
+        grid-template-columns: 1fr;
+    }
+.togglemenu{
+    display: block;
+}
+.menu{
+    display: none;
+}
+.breadcrumbs{
+    display: block;
+    grid-column: 1/-1;
+    padding: 10px;
+}
+.menu.open{
+    display: block;
+}
+
+}
+
+
+
