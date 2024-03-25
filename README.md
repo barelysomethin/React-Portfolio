@@ -1,5 +1,5 @@
 here's what it looks likes
-[scrt](src/portjpeg.PNG)
+![portjpeg](https://github.com/barelysomethin/React-Portfolio/assets/132691959/b04ad94e-b25b-4179-9fe1-088a4404cffe)
 
 
 # React + Vite
